@@ -1,0 +1,62 @@
+.navbar__list{
+    border: solid;
+}
+.navbar__item {
+    border: solid;
+    display: inline-block;
+    padding: 0.625rem;
+    width: 22%;
+    text-align: center;
+    font-size:x-large;
+}
+.title {
+    border: solid;
+    text-align: center;
+    width: 70%;
+    font-size:x-large;
+    margin: auto;
+}
+
+.form{
+    padding: 2.1875rem;
+}
+.form__group{
+    margin: 0.9375rem 0;
+    font-size:x-large;
+}
+.form__group-2--left{
+    display: inline-block;
+    margin-right: 2%;
+}
+.form__group-2--right{
+    display: inline-block;
+    vertical-align: top;
+}
+.form__level-2--right{
+    position: relative;
+    left: 1.6875rem;
+}
+.form__input--large{
+    width: 40%;
+}
+.form__input--small{
+    width: 15%;
+    margin-left: 5%;
+}
+.form__button{
+    font-size: x-large;
+    position: relative;
+    left: 31.25rem;
+}
+.footer{
+    border: solid;
+}
+.footer__group{
+    display: inline-block;
+    font-size:large;
+}
+
+.footer__group-links--right{
+    position:relative;
+    left: 53.125rem;
+}

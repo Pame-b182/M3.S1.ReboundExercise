@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Metodología BEM</title>
+</head>
+<header class="header">
+    <nav class="navbar">
+        <ul class="navbar__list">
+            <li class="navbar__item">
+                <a class="navbar__link" href="#">HostelsPage</a>
+            </li>
+            <li class="navbar__item">
+                <a class="navbar__link" href="#">Home</a>
+            </li>
+            <li class="navbar__item">
+                <a class="navbar__link" href="#">About us</a>
+            </li>
+            <li class="navbar__item">
+                <a class="navbar__link" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <section class="title">
+        <h1 class="title__main-title">HostelsPage</h1>
+        <p class="title__secondary-title">Your site for booking hostels around the word</p>
+    </section>
+    <form class="form">
+        <div class="form__group">
+            <label class="form__level-1" for="">Where do you want to go?</label>
+            <input class="form__input--large" type="text">
+        </div>
+        <div class="form__group">
+            <div class="form__group-2--left">
+                <label class="form__level-1" for="">when?</label>
+            </div>
+            <div class="form__group-2--right">
+                <label class="form__level-2" for="">From:</label>
+                <input type="text">
+                <br>
+                <label class="form__level-2" for="">To:</label>
+                <input class="form__level-2--right" type="text">
+            </div>
+        </div>
+        <div class="form__group">
+            <div class="form__group-2--left">
+                <label class="form__level-1">How many people?</label>
+            </div>
+            <div class="form__group-2--right">
+                <input class="form__input--small" type="number">
+                <label class="form__level-2" for="">adults</label>
+                <input class="form__input--small" type="number">
+                <label class="form__level-2" for="">children</label>
+            </div>
+        </div>
+        <div class="form__group">
+            <button class="form__button">Search</button>
+        </div>
+    </form>
+</body>
+<footer class="footer">
+    <div class="footer__group">
+        <p class="footer__p">All rights reserved</p>
+    </div>
+    <div class="footer__group">
+        <div class="footer__group-links--right">
+        <a class="footer__link" href="#">Instagram</a>
+        <a class="footer__link" href="#">Facebook</a>
+        <a class="footer__link" href="#">Twitter</a>
+        </div>
+    </div>
+
+</footer>
+
+</html>
